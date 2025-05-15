@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background-image:
+    linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 100%),
+    url('https://i0.wp.com/pa1.narvii.com/6094/8129370f52ffe8976234bda32247d0daac0c2619_hq.gif?w=780&ssl=1');
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom, center;
+  background-size: 100% 60%, cover; /* degradê ocupa 60% da altura */
+}
+
+#div1{
+  display: flex;
+  justify-content: center;
+}
