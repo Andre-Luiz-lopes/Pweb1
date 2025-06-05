@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image:
+    linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url('/images/ippo.jpg'); /* caminho relativo à pasta public */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Arial Black', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#div1 {
+  padding-top: 100px;
+}
+
+.botao-grande {
+  display: inline-block;
+  padding: 20px 40px;
+  margin-top: 30px;
+  background-color: red;
+  color: white;
+  font-size: 24px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.botao-grande:hover {
+  background-color: darkred;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+}
